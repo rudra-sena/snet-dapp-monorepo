@@ -9,7 +9,7 @@
  
 ## Prerequisites
 ### Windows
-- Node >= 10.14.1 < 12.0.0
+- Node >=12
 - yarn >= 1.15.0 < 2.0.0
 ### Linux
 - Node >= 10.16.0 < 12.0.0
@@ -40,7 +40,7 @@ Marketplace is ready for you.
 
 ## Starting PUBLISHER
 - `cd packages/publisher-dapp`
-- `cp .env.example .env`
+- Create a .env file in the current directory
 - Add the appropriate values for the keys in the `.env` file
 - `cd ../../`
 - `yarn start:publisher`
