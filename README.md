@@ -43,6 +43,7 @@ Marketplace is ready for you.
 - `cp .env.example .env`
 - Add the appropriate values for the keys in the `.env` file
 - `cd ../../`
+- `yarn run build:shared`
 - `yarn start:publisher`
 
 ## Building new components
